@@ -1,0 +1,48 @@
+[debug-grid] {
+  box-shadow: inset 0 0 0 1px rgba(128, 0, 128, 0.1) !important;
+}
+[debug-grid]:hover {
+  box-shadow: inset 0 0 0 1px purple !important;
+}
+[debug-grid] * {
+  box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 0.1) !important;
+}
+[debug-grid] *:hover {
+  box-shadow: inset 0 0 0 1px red !important;
+}
+[debug-grid] * + * {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 255, 0.1) !important;
+}
+[debug-grid] * + *:hover {
+  box-shadow: inset 0 0 0 1px blue !important;
+}
+[debug-grid] * + * + * {
+  box-shadow: inset 0 0 0 1px rgba(0, 128, 0, 0.1) !important;
+}
+[debug-grid] * + * + *:hover {
+  box-shadow: inset 0 0 0 1px green !important;
+}
+[debug-grid] * + * + * + * {
+  box-shadow: inset 0 0 0 1px rgba(128, 0, 128, 0.1) !important;
+}
+[debug-grid] * + * + * + *:hover {
+  box-shadow: inset 0 0 0 1px purple !important;
+}
+[debug-grid] * + * + * + * + * {
+  box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 0.1) !important;
+}
+[debug-grid] * + * + * + * + *:hover {
+  box-shadow: inset 0 0 0 1px red !important;
+}
+[debug-grid] * + * + * + * + * + * {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 255, 0.1) !important;
+}
+[debug-grid] * + * + * + * + * + *:hover {
+  box-shadow: inset 0 0 0 1px blue !important;
+}
+[debug-grid] * + * + * + * + * + * + * {
+  box-shadow: inset 0 0 0 1px rgba(0, 128, 0, 0.1) !important;
+}
+[debug-grid] * + * + * + * + * + * + *:hover {
+  box-shadow: inset 0 0 0 1px green !important;
+}
