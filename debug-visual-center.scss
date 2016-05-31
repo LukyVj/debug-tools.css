@@ -1,0 +1,27 @@
+@mixin visual-center($elem){
+  #{$elem}:before{
+    content: "";
+    position: fixed;
+    display: block;
+    width: 10%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+    background: linear-gradient(to bottom, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+    top: 5%;
+    left: 45%;
+    
+  }
+  #{$elem}:after{
+    content: "";
+    position: fixed;
+    display:block;
+    width:100%;
+    height: 10%;
+    background: linear-gradient(to right, rgba(0,0,0,0) 49.9%, red 49.9%, red 50.1%, rgba(0,0,0,0) 50.1%);
+    top:50%;
+    left: 0;
+  }
+}
+
+
+@include visual-center(html);
