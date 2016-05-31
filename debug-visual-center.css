@@ -1,0 +1,23 @@
+html:before {
+  content: "";
+  position: fixed;
+  display: block;
+  width: 10%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+  background: linear-gradient(to bottom, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+  top: 5%;
+  left: 45%;
+}
+
+html:after {
+  content: "";
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 10%;
+  background: -webkit-linear-gradient(left, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+  background: linear-gradient(to right, transparent 49.9%, red 49.9%, red 50.1%, transparent 50.1%);
+  top: 50%;
+  left: 0;
+}
